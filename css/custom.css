@@ -56,6 +56,20 @@ div.row.features-preview .col-lg-3 {
 	height: 350px;
 	margin-bottom: 10px;
 }
+
+.logoSpace input {
+  outline: none;
+  background: none;
+  border: 1px solid #2E3852;
+  font-size: 1em;
+  padding: .5em;
+  color: inherit;
+  border-radius: 5px;
+  height: 90px;
+  width: 220px;
+}
+
+
 .bookings form .btn-danger {
 	margin-top: 30px;
 }
@@ -82,6 +96,22 @@ opacity: 0.5;
 .apartments-img-size {
 	height: 150px;
 }
+
+.accomodation-head-img-size-2 {
+	height: 350px;
+	margin-bottom: 0.5rem;
+}
+.accomodation-head-img-size {
+	height: 400px;
+	margin-bottom: 3rem;
+}
+.accomodation-img-size {
+	height: 150px;
+}
+
+
+
+
 .carousel-image {
 	background-size: cover; 
 	background-repeat: no-repeat; 
