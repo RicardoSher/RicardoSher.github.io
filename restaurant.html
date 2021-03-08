@@ -7,8 +7,8 @@
     <title>JoRac Hotel</title>
 
     <!-- Scripts -->
-    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/custom.js"></script>
     <!-- <script src="js/lightbox.min.js"></script> -->
 
@@ -21,10 +21,15 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+  <link href="imaes/logo.png" rel="icon">
+  <link href="imaes/logo.png" rel="apple-touch-icon">
+
 </head>
 <body>
     <div id="app">
-                <nav class="navbar navbar-expand-md fixed-top navbar-light navbar-laravel">
+               <nav class="navbar navbar-expand-md fixed-top navbar-light navbar-laravel">
             <div class="container-fluid">
                 <div class="logoSpace">
                 <a href="index.html"class="brand-logo">
@@ -65,6 +70,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact-us.html">Contact Us</a>
                               </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -72,16 +78,16 @@
 <div class="container-fluid pt-5 standard-room">
 	<div class="row">
 		<div class="col">
-			<div class="d-block w-100 carousel-image apartments-head-img-size-2 image-1" alt="Apartment Image"></div>
+			<div class="d-block w-100 carousel-image apartments-head-img-size-2 image-2" alt="Apartment Image"></div>
 		</div>
 	</div>
 	<div class="row neg-padding">
 		<div class="col-12">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="/">Home</a></li>
-					<li class="breadcrumb-item"><a href="/apartments">Apartments</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Standard-room</li>
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="services.html">Services</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Restaurant</li>
 				</ol>
 			</nav>
 		</div>
@@ -90,7 +96,7 @@
 		<!-- lightbox comes here -->
 	</div>
 	<div class="row container">
-		<h3 class="text-uppercase site-text-transform">Standard Room</h3>
+		<h3 class="text-uppercase site-text-transform">2 Bedroom</h3>
 		<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptatem sit, asperiores nobis possimus dicta sint dolore corporis, dignissimos eius repudiandae, eum explicabo expedita impedit debitis magnam beatae amet necessitatibus.</p>
 	</div>
 	
@@ -124,8 +130,7 @@
 	</div>
 </div>
 </main>
-
-        <footer class="footer">
+<footer class="footer">
             <div class="container-fluid">
                 <!--
                 <div class="row jumbotron">
@@ -165,7 +170,7 @@
                             <h6 class="text-uppercase widget-title pb-1"><span>Useful Links</span></h6>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="apartments.html">Apartments</a></li>
+                            <li><a href="accomodation.html">Apartments</a></li>
                             <li><a href="contact-us.html">Contact Us</a></li>
                         </ul>
                     </div>
@@ -205,7 +210,7 @@
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-8 col-md-5">
-                        <p> <style type="padding-top: 20px;"></style>All Rights Reserved &copy; <script>document.write(new Date().getFullYear())</script> JoRac Hotel Ltd </p>
+                        <p> All Rights Reserved &copy; <script>document.write(new Date().getFullYear())</script> JoRac Hotel Ltd </p>
                     </div>
                     <!--
                     <div class="col-4 col-md-3 pr">
@@ -217,44 +222,3 @@
     </div>
 </body>
 </html>
-
-
-<!-- FORM EXTRACT
-
-<form method="get" action="">
-                        <div class="form-group">
-                            <label for="check in date" class="font-weight-bold">Check In</label>
-                            <input type="date" class="form-control" name="checkin" id="checkin" placeholder="Check in">
-                        </div>
-                        <div class="form-group">
-                            <label for="check out date" class="font-weight-bold">Check Out</label>
-                            <input type="date" class="form-control" name="checkout" id="checkout" placeholder="Check Out">
-                        </div>
-                        <div class="form-group">
-                            <label for="check out date" class="font-weight-bold">Room Type</label>
-                            <select class="custom-select" required>
-                                <option value="">Select Room</option>
-                                <option value="1">Standard Room</option>
-                                <option value="2">1 Bedroom</option>
-                                <option value="3">2 Bedroom</option>
-                                <option value="4">Studio</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="check in date" class="font-weight-bold">Number of Rooms</label>
-                            <input type="number" class="form-control" name="rooms" id="rooms" placeholder="Number of Rooms">
-                        </div>
-                        <div class="form-group">
-                            <label for="check out date" class="font-weight-bold">Adult</label>
-                            <input type="number" min="1" class="form-control" name="adult" id="adult" placeholder="Number of Adults">
-                        </div>
-                        <div class="form-group">
-                            <label for="check out date" class="font-weight-bold">Children</label>
-                            <input type="number" min="0" class="form-control" name="children" id="children" placeholder="Number of Children">
-                        </div>
-                        <div class="formboxSubmit">
-                        <div class="form-group">
-                            <button type="submit" class="btn">Book Now</button>
-                        </div>
-                    </div>
-                    </form>
