@@ -58,15 +58,22 @@ div.row.features-preview .col-lg-3 {
 }
 
 .logoSpace input {
-  outline: none;
+  outline: darkred;
   background: none;
   border: 1px solid #2E3852;
   font-size: 1em;
   padding: .5em;
   color: inherit;
-  border-radius: 5px;
-  height: 90px;
-  width: 220px;
+  border-radius: 25px;
+  height: 80px;
+  width: 240px;
+}
+
+.logoformat
+{
+  border: 3px solid #2E3852;
+  color: inherit;
+  border-radius: 25rem;
 }
 
 
